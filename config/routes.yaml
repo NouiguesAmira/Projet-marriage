@@ -1,3 +1,12 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+personnes:
+    type:     rest
+    resource: App\Controller\PersonneController
+invites:
+    type:     rest
+    resource: App\Controller\InviteController
+mariages:
+    type:     rest
+    resource: App\Controller\MariageController
+salles:
+    type:     rest
+    resource: App\Controller\SalleController
